@@ -1,0 +1,65 @@
+#zsh
+sudo apt-get update
+sudo apt-get install zsh
+chsh -s $(which zsh)
+
+#miniconda
+sudo apt-get update
+sudo apt-get install curl
+cd /tmp
+curl –O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+soruce Miniconda3-latest-Linux-x86_64.sh
+source ~/.zshrc
+conda update conda
+conda create -n myproject python=3.9
+conda init zsh
+conda activate myprojectjjj
+
+#pip3
+sudo apt-get update
+sudo apt-get install python3-pip
+
+#nodejs
+sudo apt install nodejs
+sudo apt install npm
+
+# ranger
+pip install ranger-fm
+
+#nnn
+sudo apt install nnn
+
+# powerline fonts
+sudo apt-get install fonts-powerline
+
+# bat --alias bat = batcat
+sudo apt install bat
+
+# thefuck
+sudo apt update
+sudo apt install python3-dev python3-pip python3-setuptools
+sudo pip3 install thefuck
+
+#bpytop
+pip3 install bpytop --upgrade
+
+#fd-find
+sudo apt install fd-find
+
+#fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
+#tree
+sudo apt instal tree
+
+#neovim
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
+
+
+#nerdfont
+https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip
+下载完成后，解压到当前文件夹，然后CTRL+A全选，右键点击安装，等待安装完成即可。
+Windows Terminal Settings "fontFace": "DejaVuSansMono Nerd Font"
