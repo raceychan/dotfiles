@@ -1,0 +1,19 @@
+{
+  "load_extensions": {
+    "nbextensions_configurator/config_menu/main": true,
+    "contrib_nbextensions_help_item/main": true,
+    "code_prettify/code_prettify": false,
+    "snippets/main": true,
+    "jupyter_tabnine/main": true,
+    "jupyter_tabnine": false,
+    "code_prettify": true
+  },
+  "code_prettify": {
+    "add_toolbar_button": true
+  },
+  "ruler_column": [
+    "",
+    "",
+    ""
+  ]
+}
